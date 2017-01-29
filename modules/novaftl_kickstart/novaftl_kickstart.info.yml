@@ -1,0 +1,6 @@
+name: 'novaFTL Kickstart Module'
+type: module
+description: 'Starting a website like none before'
+package: novaFTL
+version: VERSION
+core: 8.x
