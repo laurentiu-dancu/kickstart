@@ -1,0 +1,22 @@
+uuid: 041fc1a7-f390-4112-b686-07e852829099
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - photographer
+_core:
+  default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
+id: photographer_login
+theme: photographer
+region: header
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

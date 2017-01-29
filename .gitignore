@@ -44,3 +44,5 @@ core/phpunit.xml
 
 #ignore idea files
 .idea
+sites/sites.php
+sites/DigitalOcean.dd
