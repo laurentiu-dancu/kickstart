@@ -1,0 +1,8 @@
+uuid: 042abf91-e05f-4ebd-b645-dbbb5730eba3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Cool Text'
+format: cool_text
+weight: 0
+filters: {  }
