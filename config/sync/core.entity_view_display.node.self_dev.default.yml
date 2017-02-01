@@ -1,0 +1,33 @@
+uuid: ad360691-ffa3-4688-b8d6-16096e6eb6b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.self_dev.body
+    - field.field.node.self_dev.field_main_image
+    - node.type.self_dev
+  module:
+    - image
+    - text
+    - user
+id: node.self_dev.default
+targetEntityType: node
+bundle: self_dev
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_main_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  links: true

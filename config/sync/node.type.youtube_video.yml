@@ -1,0 +1,17 @@
+uuid: b8ba4e83-3fdc-44e1-854e-f997308cbd8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Youtube Video'
+type: youtube_video
+description: 'Use this when you have a video and want it for other people to see it.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
