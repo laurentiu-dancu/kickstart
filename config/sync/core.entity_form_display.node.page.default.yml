@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_this_is_a
     - node.type.page
   module:
+    - path
     - text
 id: node.page.default
 targetEntityType: node
@@ -23,6 +25,16 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_this_is_a:
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  path:
+    type: path
+    weight: 30
     settings: {  }
     third_party_settings: {  }
   promote:

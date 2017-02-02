@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.self_dev.body
     - field.field.node.self_dev.field_main_image
+    - field.field.node.self_dev.field_this_is_a
     - node.type.self_dev
   module:
     - image
@@ -30,4 +31,5 @@ content:
     third_party_settings: {  }
     type: image
 hidden:
+  field_this_is_a: true
   links: true

@@ -1,0 +1,20 @@
+uuid: bcc0dc36-abfb-4f90-aab3-ef81f88c02d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - novaftl_with_love
+  theme:
+    - bartik
+id: novaftlwithloveblock
+theme: bartik
+region: footer_fifth
+weight: -4
+provider: null
+plugin: novaftl_with_love_block
+settings:
+  id: novaftl_with_love_block
+  label: 'novaFTL With Love Block'
+  provider: novaftl_with_love
+  label_display: '0'
+visibility: {  }

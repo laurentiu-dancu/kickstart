@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.youtube_video.body
+    - field.field.node.youtube_video.field_this_is_a
     - field.field.node.youtube_video.field_video_link
     - node.type.youtube_video
   module:
@@ -16,16 +17,16 @@ bundle: youtube_video
 mode: default
 content:
   body:
-    weight: 102
+    weight: 1
     label: visually_hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
   field_video_link:
-    weight: 101
+    weight: 0
     label: visually_hidden
     settings:
-      youtube_size: responsive
+      youtube_size: 480x360
       youtube_width: ''
       youtube_height: ''
       youtube_autohide: true
@@ -37,4 +38,5 @@ content:
     third_party_settings: {  }
     type: youtube_video
 hidden:
+  field_this_is_a: true
   links: true

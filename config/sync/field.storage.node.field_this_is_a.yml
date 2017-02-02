@@ -1,0 +1,27 @@
+uuid: 2c34139b-5bbb-4b58-bf9c-eba232a2a3f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_this_is_a
+field_name: field_this_is_a
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: rant
+      label: Rant
+    -
+      value: self-dev
+      label: Self-DEV
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

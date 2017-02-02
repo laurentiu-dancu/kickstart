@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.youtube_video.body
+    - field.field.node.youtube_video.field_this_is_a
     - field.field.node.youtube_video.field_video_link
     - node.type.youtube_video
   module:
@@ -16,7 +17,7 @@ bundle: youtube_video
 mode: default
 content:
   body:
-    weight: 32
+    weight: 8
     settings:
       rows: 9
       summary_rows: 3
@@ -25,41 +26,46 @@ content:
     type: text_textarea_with_summary
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 3
     settings: {  }
     third_party_settings: {  }
+  field_this_is_a:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
   field_video_link:
-    weight: 31
+    weight: 7
     settings: {  }
     third_party_settings: {  }
     type: youtube
   path:
     type: path
-    weight: 30
+    weight: 6
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 4
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 5
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 2
     settings:
       match_operator: CONTAINS
       size: 60

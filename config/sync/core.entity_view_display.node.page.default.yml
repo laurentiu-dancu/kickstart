@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_this_is_a
     - node.type.page
   module:
+    - options
     - text
     - user
 id: node.page.default
@@ -19,5 +21,11 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+  field_this_is_a:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
 hidden:
   links: true

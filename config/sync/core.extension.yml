@@ -21,6 +21,7 @@ module:
   menu_ui: 0
   node: 0
   novaftl_kickstart: 0
+  novaftl_with_love: 0
   options: 0
   page_cache: 0
   path: 0

@@ -1,0 +1,21 @@
+uuid: 0e8781b2-ee72-42e6-a858-32dcd410b1ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_this_is_a
+    - node.type.youtube_video
+  module:
+    - options
+id: node.youtube_video.field_this_is_a
+field_name: field_this_is_a
+entity_type: node
+bundle: youtube_video
+label: 'This is a'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: 49c1ec83-5dea-4ae5-abb2-651636b186a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_this_is_a
+    - node.type.page
+  module:
+    - options
+id: node.page.field_this_is_a
+field_name: field_this_is_a
+entity_type: node
+bundle: page
+label: 'This is a'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

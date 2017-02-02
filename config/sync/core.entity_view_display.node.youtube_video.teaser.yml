@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.youtube_video.body
+    - field.field.node.youtube_video.field_this_is_a
     - field.field.node.youtube_video.field_video_link
     - node.type.youtube_video
   module:
@@ -20,9 +21,9 @@ content:
     weight: 0
     label: hidden
     settings:
-      youtube_size: responsive
-      youtube_width: ''
-      youtube_height: ''
+      youtube_size: custom
+      youtube_width: '720'
+      youtube_height: '408'
       youtube_autohide: true
       youtube_iv_load_policy: true
       youtube_autoplay: false
@@ -32,4 +33,5 @@ content:
     third_party_settings: {  }
 hidden:
   body: true
+  field_this_is_a: true
   links: true

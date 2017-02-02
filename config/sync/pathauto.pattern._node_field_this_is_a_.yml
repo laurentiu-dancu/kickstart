@@ -1,14 +1,14 @@
-uuid: 3a12b07c-8744-4161-bda4-0c04729b6498
+uuid: ec276aff-38d4-4898-b9c4-a3dc4f55cd1a
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: content_pathauto_rule
-label: 'Content Pathauto Rule'
+id: _node_field_this_is_a_
+label: 'This is a Rule'
 type: 'canonical_entities:node'
-pattern: '[node:title]'
+pattern: '[node:field_this_is_a]/[node:title]'
 selection_criteria: {  }
 selection_logic: and
-weight: -8
+weight: -10
 relationships: {  }
