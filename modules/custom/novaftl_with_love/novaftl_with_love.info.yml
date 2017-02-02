@@ -1,0 +1,6 @@
+name: 'novaFTL With Love Module'
+type: module
+description: 'A simple block that displays a simple message. All that matters.'
+package: novaFTL
+version: VERSION
+core: 8.x

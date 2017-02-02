@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function novaftl_with_love_theme($existing, $type, $theme, $path) {
+  return [
+    'novaftl_with_love_theme' => [
+      'content' => [],
+    ],
+  ];
+}
