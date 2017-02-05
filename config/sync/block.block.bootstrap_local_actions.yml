@@ -1,15 +1,15 @@
-uuid: e751e0ba-bf1e-4ddc-a258-1bc2e2bca63f
+uuid: f7e28922-fbf5-4a62-9da9-fa311a63c665
 langcode: en
 status: true
 dependencies:
   theme:
-    - stark
+    - bootstrap
 _core:
-  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
-id: stark_local_actions
-theme: stark
-region: content
-weight: -10
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: bootstrap_local_actions
+theme: bootstrap
+region: header
+weight: 20
 provider: null
 plugin: local_actions_block
 settings:

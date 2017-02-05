@@ -1,4 +1,4 @@
-uuid: 1920917c-ab67-4751-a397-7261e5f28eee
+uuid: b2969f2a-1694-4420-8add-6a3483a056fb
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
-id: mainnavigation
-theme: bartik
-region: primary_menu
-weight: 0
+    - novaftl_theme
+_core:
+  default_config_hash: GT_zYl7I9VAILH8OxMRe-VDvFadCDHxRcnmBc5xEmf0
+id: novaftl_theme_main_menu
+theme: novaftl_theme
+region: navigation_collapsible
+weight: -3
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -20,5 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 0
+  depth: 2
 visibility: {  }

@@ -1,15 +1,15 @@
-uuid: d6f525bf-36ca-4ba0-b706-23c018fc5ee5
+uuid: 5bead257-b32e-43aa-bc00-d86cd1ce8e23
 langcode: en
 status: true
 dependencies:
   theme:
-    - stark
+    - novaftl_theme
 _core:
-  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
-id: stark_page_title
-theme: stark
-region: content
-weight: -30
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: novaftl_theme_page_title
+theme: novaftl_theme
+region: header
+weight: -2
 provider: null
 plugin: page_title_block
 settings:

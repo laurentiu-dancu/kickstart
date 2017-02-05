@@ -1,15 +1,15 @@
-uuid: ce02112f-a6fc-4506-ae5d-d41b63e79bae
+uuid: 09b1f9c3-d267-4885-8998-f4529bc192f4
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
+    - novaftl_theme
 _core:
-  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
-id: bartik_local_tasks
-theme: bartik
-region: content
-weight: -4
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: novaftl_theme_local_tasks
+theme: novaftl_theme
+region: header
+weight: -1
 provider: null
 plugin: local_tasks_block
 settings:

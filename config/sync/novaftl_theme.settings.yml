@@ -1,0 +1,34 @@
+schemas:
+  bootstrap: 8000
+  novaftl_theme: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: 'public://favicon.ico'
+  url: 'http://local.dd/sites/default/files/favicon.ico'
+  use_default: 0
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: 1
+  node_user_picture: false
+logo:
+  path: ''
+  url: ''
+  use_default: 1
+table_responsive: '-1'
+table: ''
+breadcrumb_home: 1
+breadcrumb_title: 0
+navbar_position: static-top
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+cdn_jsdelivr_version: 3.3.7
+cdn_jsdelivr_theme: lumen

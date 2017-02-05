@@ -1,15 +1,15 @@
-uuid: 6da84b07-4e57-4c0d-a7f2-8dee387f6f4b
+uuid: d4d7f29d-5ca5-4115-bd90-26860630387a
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
+    - bootstrap
 _core:
-  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
-id: bartik_page_title
-theme: bartik
-region: content
-weight: -4
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: bootstrap_page_title
+theme: bootstrap
+region: header
+weight: 0
 provider: null
 plugin: page_title_block
 settings:

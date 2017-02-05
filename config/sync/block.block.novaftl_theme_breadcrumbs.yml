@@ -1,15 +1,17 @@
-uuid: 5b108cd8-e401-48d0-a8c4-d91576cbd497
+uuid: 2415b434-f66b-4a8c-8fde-6115a9295479
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
-id: breadcrumbs
-theme: bartik
-region: breadcrumb
-weight: 0
+    - novaftl_theme
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: novaftl_theme_breadcrumbs
+theme: novaftl_theme
+region: header
+weight: -3
 provider: null
 plugin: system_breadcrumb_block
 settings:

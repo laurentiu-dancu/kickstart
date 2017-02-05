@@ -1,15 +1,15 @@
-uuid: 979926ca-760c-4b74-8ec0-9602b87d2f52
+uuid: 6617fad9-e542-49e4-b680-cd2a448dd727
 langcode: en
 status: true
 dependencies:
   theme:
-    - stark
+    - bootstrap
 _core:
-  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
-id: stark_local_tasks
-theme: stark
-region: content
-weight: -20
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: bootstrap_local_tasks
+theme: bootstrap
+region: header
+weight: 10
 provider: null
 plugin: local_tasks_block
 settings:

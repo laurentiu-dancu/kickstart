@@ -1,15 +1,15 @@
-uuid: bcc0dc36-abfb-4f90-aab3-ef81f88c02d3
+uuid: 0bc16546-c618-422a-9b13-d421ef701f32
 langcode: en
 status: true
 dependencies:
   module:
     - novaftl_with_love
   theme:
-    - bartik
-id: novaftlwithloveblock
-theme: bartik
-region: footer_fifth
-weight: -4
+    - novaftl_theme
+id: novaftlwithloveblock_2
+theme: novaftl_theme
+region: footer
+weight: 0
 provider: null
 plugin: novaftl_with_love_block
 settings:

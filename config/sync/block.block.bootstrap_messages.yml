@@ -1,17 +1,17 @@
-uuid: 13caa265-ba8a-40bb-af50-e9ab102ad0ea
+uuid: 00a1c535-3d61-4693-90af-fd0a76fe021b
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - stark
+    - bootstrap
 _core:
-  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
-id: stark_messages
-theme: stark
-region: highlighted
-weight: 0
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: bootstrap_messages
+theme: bootstrap
+region: header
+weight: -50
 provider: null
 plugin: system_messages_block
 settings:
