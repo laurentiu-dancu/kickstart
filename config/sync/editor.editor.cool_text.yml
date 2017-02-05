@@ -17,6 +17,7 @@ settings:
           items:
             - Bold
             - Italic
+            - Strike
         -
           name: Links
           items:
@@ -31,6 +32,7 @@ settings:
           name: Media
           items:
             - Blockquote
+            - Styles
             - DrupalImage
         -
           name: Tools
