@@ -32,3 +32,4 @@ region_wells:
   footer: ''
 cdn_jsdelivr_version: 3.3.7
 cdn_jsdelivr_theme: lumen
+cdn_provider: ''

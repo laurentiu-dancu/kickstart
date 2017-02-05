@@ -1,5 +1,7 @@
 global-styling:
   css:
+    base:
+      css/libs/bootstrap.min.css: {}
     theme:
       css/base.css: {}
   dependencies:

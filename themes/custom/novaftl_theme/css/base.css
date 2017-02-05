@@ -1,0 +1,11 @@
+.navbar {
+    z-index: 500;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.container {
+    max-width: 820px;
+}
