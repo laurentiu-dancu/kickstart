@@ -1,0 +1,6 @@
+uuid: fbec11c4-bdff-4dff-9dbf-36544bfcda92
+langcode: en
+status: true
+dependencies: {  }
+id: textarea
+label: Textarea

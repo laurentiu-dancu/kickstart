@@ -1,0 +1,21 @@
+uuid: 5a7c926a-2609-4a1b-9a92-cda73434e529
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_this_is_a
+    - node.type.article
+  module:
+    - options
+id: node.article.field_this_is_a
+field_name: field_this_is_a
+entity_type: node
+bundle: article
+label: 'This is a'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

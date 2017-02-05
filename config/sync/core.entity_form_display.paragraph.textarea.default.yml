@@ -1,0 +1,26 @@
+uuid: 7cb68720-ec20-4264-a87e-623fb9ba1458
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.textarea.field_text
+    - paragraphs.paragraphs_type.textarea
+  module:
+    - text
+id: paragraph.textarea.default
+targetEntityType: paragraph
+bundle: textarea
+mode: default
+content:
+  field_text:
+    weight: 0
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+hidden:
+  created: true
+  status: true
+  uid: true

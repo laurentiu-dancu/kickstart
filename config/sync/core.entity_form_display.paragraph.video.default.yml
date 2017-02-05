@@ -1,0 +1,23 @@
+uuid: 2ca44730-e24e-476c-ad5d-f3e28c669c11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.video.field_video
+    - paragraphs.paragraphs_type.video
+  module:
+    - youtube
+id: paragraph.video.default
+targetEntityType: paragraph
+bundle: video
+mode: default
+content:
+  field_video:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: youtube
+hidden:
+  created: true
+  status: true
+  uid: true
