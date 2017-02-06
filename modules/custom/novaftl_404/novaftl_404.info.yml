@@ -1,0 +1,6 @@
+name: 'novaFTL 404 Module'
+type: module
+description: 'For when you want to display an error, with style'
+package: novaFTL
+version: VERSION
+core: 8.x

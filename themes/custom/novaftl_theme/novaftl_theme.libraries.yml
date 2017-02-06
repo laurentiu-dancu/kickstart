@@ -6,3 +6,8 @@ global-styling:
       css/base.css: {}
   dependencies:
     - bootstrap/theme
+
+error-404:
+  css:
+    theme:
+      css/error-404.css: {}

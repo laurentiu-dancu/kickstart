@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function novaftl_404_theme() {
+  return [
+    'novaftl_page_404' => [
+      'variables' => [],
+    ],
+  ];
+}

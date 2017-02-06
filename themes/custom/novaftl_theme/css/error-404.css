@@ -1,0 +1,15 @@
+.error-404  .center {
+    text-align: center;
+}
+
+.error-404 .center p {
+    margin-bottom: 2em;
+}
+
+.error-404 li {
+    text-align: justify;
+}
+
+.error-404 ul {
+    margin-bottom: 2em;
+}

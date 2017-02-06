@@ -4,7 +4,7 @@ mail: laue.dancu@gmail.com
 slogan: 'A blog about building this blog. At least for now.'
 page:
   403: ''
-  404: ''
+  404: /404-error
   front: /everything
 admin_compact_mode: false
 weight_select_max: 100

@@ -1,0 +1,7 @@
+novaftl.404:
+  path: '/404-error'
+  defaults:
+    _controller: 'Drupal\novaftl_404\Controller\NovaFtl404Controller::page404'
+    _title: 'Page not found'
+  requirements:
+    _access: 'TRUE'
