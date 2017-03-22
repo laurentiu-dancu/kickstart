@@ -6,6 +6,7 @@ module:
   ckeditor: 0
   color: 0
   config: 0
+  contact: 0
   ctools: 0
   datetime: 0
   dblog: 0
@@ -24,6 +25,7 @@ module:
   menu_ui: 0
   node: 0
   novaftl_404: 0
+  novaftl_entity: 0
   novaftl_kickstart: 0
   novaftl_with_love: 0
   options: 0

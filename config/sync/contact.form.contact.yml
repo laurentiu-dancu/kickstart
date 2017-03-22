@@ -1,0 +1,12 @@
+uuid: eebb4c69-eb05-4f11-b7b5-34b7d8a8959b
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+recipients:
+  - laue.dancu@gmail.com
+reply: ''
+weight: 0
+message: 'Thank contact'
+redirect: /

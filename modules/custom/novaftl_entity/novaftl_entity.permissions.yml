@@ -1,0 +1,22 @@
+add my basic entity type entities:
+  title: 'Create new My basic entity type entities'
+
+administer my basic entity type entities:
+  title: 'Administer My basic entity type entities'
+  description: 'Allow to access the administration form to configure My basic entity type entities.'
+  restrict access: true
+
+delete my basic entity type entities:
+  title: 'Delete My basic entity type entities'
+
+edit my basic entity type entities:
+  title: 'Edit My basic entity type entities'
+
+access my basic entity type overview:
+  title: 'Access the My basic entity type overview page'
+
+view published my basic entity type entities:
+  title: 'View published My basic entity type entities'
+
+view unpublished my basic entity type entities:
+  title: 'View unpublished My basic entity type entities'

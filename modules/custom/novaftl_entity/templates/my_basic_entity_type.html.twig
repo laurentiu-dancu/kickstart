@@ -1,0 +1,22 @@
+{#
+/**
+ * @file my_basic_entity_type.html.twig
+ * Default theme implementation to present My basic entity type data.
+ *
+ * This template is used when viewing My basic entity type pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_my_basic_entity_type()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('my_basic_entity_type') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

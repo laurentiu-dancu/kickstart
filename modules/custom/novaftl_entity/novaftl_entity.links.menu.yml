@@ -1,0 +1,14 @@
+
+# My basic entity type menu items definition
+entity.my_basic_entity_type.collection:
+  title: 'My basic entity type list'
+  route_name: entity.my_basic_entity_type.collection
+  description: 'List My basic entity type entities'
+  parent: system.admin_structure
+  weight: 100
+
+my_basic_entity_type.admin.structure.settings:
+  title: My basic entity type settings
+  description: 'Configure My basic entity type entities'
+  route_name: my_basic_entity_type.settings
+  parent: system.admin_structure

@@ -1,0 +1,23 @@
+uuid: 4cb16472-34f2-4bcb-bdbb-e6bc244802a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact
+    - field.storage.contact_message.field_yes
+id: contact_message.contact.field_yes
+field_name: field_yes
+entity_type: contact_message
+bundle: contact
+label: 'yes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
