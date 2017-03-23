@@ -1,0 +1,28 @@
+uuid: 56768b89-3d79-43e6-be5d-82feef458d85
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.my_basic_entity_type.my_basic_entity_type.field_body
+  module:
+    - novaftl_entity
+    - text
+id: my_basic_entity_type.my_basic_entity_type.default
+targetEntityType: my_basic_entity_type
+bundle: my_basic_entity_type
+mode: default
+content:
+  field_body:
+    weight: -3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  name:
+    label: above
+    type: string
+    weight: -4
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

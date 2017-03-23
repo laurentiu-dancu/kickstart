@@ -1,0 +1,21 @@
+uuid: d032a2e4-959b-4b0c-965f-62e7299ab4b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.my_basic_entity_type.field_body
+  module:
+    - novaftl_entity
+    - text
+id: my_basic_entity_type.my_basic_entity_type.field_body
+field_name: field_body
+entity_type: my_basic_entity_type
+bundle: my_basic_entity_type
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

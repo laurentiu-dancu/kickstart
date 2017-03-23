@@ -1,0 +1,19 @@
+uuid: f4389999-6789-486e-84ed-5a20ec1ad949
+langcode: en
+status: true
+dependencies:
+  module:
+    - novaftl_entity
+    - text
+id: my_basic_entity_type.field_body
+field_name: field_body
+entity_type: my_basic_entity_type
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
