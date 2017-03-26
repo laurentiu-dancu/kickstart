@@ -1,0 +1,8 @@
+uuid: 28d7622e-4ab4-4363-9880-80033123b9bf
+langcode: en
+status: true
+dependencies: {  }
+name: 'Simple Text'
+format: simple_text
+weight: 0
+filters: {  }
